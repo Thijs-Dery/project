@@ -1,0 +1,114 @@
+/* General Body Styles */
+body {
+    background-image: url('/resources/images/pexels-wood1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Container Styles */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Typography Styles */
+h1, h2, .navbar-brand {
+    font-family: 'Cookie', cursive;
+    color: #6d4c41;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #5d4037;
+}
+
+.nav-link {
+    color: #f4e8c1 !important;
+}
+
+.nav-link:hover {
+    color: #ff7043 !important;
+}
+
+/* Card and Button Styles */
+.card {
+    background-color: #fff8e1;
+    border: 1px solid #d7ccc8;
+}
+
+.card-title {
+    color: #6d4c41;
+}
+
+.btn-primary {
+    background-color: #ff7043;
+    border-color: #ff7043;
+}
+
+.btn-primary:hover {
+    background-color: #d84315;
+    border-color: #d84315;
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Hide the SVG arrows in pagination */
+.page-link svg {
+    display: none;
+}
+
+.pagination .page-link:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination .active .page-link {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination .disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+}
+
+/* Additional Styles */
+.alert {
+    margin-top: 20px;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #d7ccc8;
+}
+
+.favorite-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff7043;
+}
+
+.favorite-button i.fas {
+    color: #ff7043;
+}
